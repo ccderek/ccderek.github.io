@@ -1,0 +1,8 @@
+@font-face{
+	font-family: "openhuninn";
+	src: url("./jf-openhuninn-1.0.ttf");
+}
+
+html{
+	font-family: "openhuninn";
+}
