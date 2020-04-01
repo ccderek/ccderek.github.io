@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<title>Kueh Tiet Hi 郭哲希</title>
+		<link href='css/style.css' rel='stylesheet' type='text/css'>
+		<link href='css/sidenav.css' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<div class="sidenav">
+			<strong><a href="./index.html">Kueh Tiet Hi 郭哲希</a></strong>
+			<strong><a href="./works.html">works 作品</a></strong>
+				<div class="sideitem"><a href="./works_palace.html">+Palace 皇宮</a></div>
+				<div class="sideitem"><a href="./works_monuments.html">+Monuments</a></div>
+				<div class="sideitem"><a href="./works_solo.html">+Derek Kueh Solo Exhibition</a></div>
+					<strong><a href="./about.html">about 關於</a></strong>
+					<strong><a href="./contect.html">contect 聯絡</a><strong>
+		</div>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<div class="main">
+				<div class="w3-content w3-display-container">
+						<img class="mySlides" src="pic/works_solo/1-1_small.jpeg" style="width:80%">
+						<img class="mySlides" src="pic/works_solo/2_small.jpeg" style="width:80%">
+						<img class="mySlides" src="pic/works_solo/3_small.jpeg" style="width:80%">
+						<img class="mySlides" src="pic/works_solo/4-1_small.jpeg" style="width:80%">
+						<img class="mySlides" src="pic/works_solo/5_small.jpeg" style="width:51.2%">
+					  
+						<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+						<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+				</div>
+					  
+				<script>
+					var slideIndex = 1;
+					showDivs(slideIndex);
+					  
+					function plusDivs(n) {
+						showDivs(slideIndex += n);
+					}
+					  
+					function showDivs(n) {
+						var i;
+						var x = document.getElementsByClassName("mySlides");
+						if (n > x.length) {slideIndex = 1}
+						if (n < 1) {slideIndex = x.length}
+						for (i = 0; i < x.length; i++) {
+							x[i].style.display = "none";  
+						}
+						x[slideIndex-1].style.display = "block";  
+					}
+				</script>
+				<article>
+					<em><strong><p>Derek Kueh Solo Exhibition</p></strong></em>
+					<p style="color: #9D9D9D">
+						德瑞克在世界各地舉辦了他的巡迴個展。
+					</p>
+				</article>
+		</div>
+</script>
+
+		
+		</div>
+	</body>
+</html>
