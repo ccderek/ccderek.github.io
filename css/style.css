@@ -6,3 +6,9 @@
 html{
 	font-family: "openhuninn";
 }
+.main {
+	margin-left: 250px; /* Same width as the sidebar + left position in px */
+    font-size: 17px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+	color:#3C3C3C;
+}
