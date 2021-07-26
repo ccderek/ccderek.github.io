@@ -4,3 +4,6 @@
 
 layout: home
 ---
+This is a test text for this *blog*.
+date: {{date}}
+
